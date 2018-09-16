@@ -9,6 +9,8 @@ public:
 
 	SUIGameObject *createGameUI(const std::string cname);
 
+	void removeGameUI(const std::string cname);
+
 	void run();
 
 protected:

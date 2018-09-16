@@ -13,6 +13,7 @@ void UICommonDialog::onLoad() {
 	this->addClickFunc("btn_cancel", [](SUIGameObject *pSelf, Node *pNode){ ((UICommonDialog*)pSelf)->clickBtnCancel(pNode); });
 
 	this->getNode("text_desc")->setVisible(false);
+	((ui::Button *)this->getNode("btn_cancel"))->setSwallowTouches(true);
 }
 
 void UICommonDialog::setContent(std::string content) {
@@ -21,7 +22,7 @@ void UICommonDialog::setContent(std::string content) {
 }
 
 void UICommonDialog::clickBtnClose(Ref *pSender) {
-	this->setVisible(false);
+	this->removeGameUI("UICommonDialog");
 }
 
 void UICommonDialog::clickBtnSure(Ref *pSender) {
@@ -29,5 +30,5 @@ void UICommonDialog::clickBtnSure(Ref *pSender) {
 }
 
 void UICommonDialog::clickBtnCancel(Ref *pSender) {
-
+	this->removeGameUI("UICommonDialog");
 }

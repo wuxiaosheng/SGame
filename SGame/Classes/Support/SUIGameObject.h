@@ -14,6 +14,8 @@ public:
 
 	virtual void onLoad() {}
 
+	virtual void onRemove();
+
 	Node *getNode(const std::string name);
 
 	virtual SMDGameObject *createModel() { _pModel = new SMDGameObject(); return _pModel; }
@@ -25,6 +27,9 @@ public:
 	SGameScene *getGameScene() { return _pScene; }
 
 	SUIGameObject *createGameUI(const std::string name) { return _pScene->createGameUI(name); }
+
+	void removeGameUI(const std::string name) { _pScene->removeGameUI(name); }
+
 protected:
 	virtual void loadFile(const std::string name);
 

@@ -5,8 +5,7 @@
 class SMDGameObject : public SGameObject
 {
 public:
-	SMDGameObject() : SGameObject() {}
-	~SMDGameObject() {}
+	virtual bool init();
 };
 
 #endif

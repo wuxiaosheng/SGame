@@ -16,8 +16,14 @@ SUIGameObject *SGameScene::createGameUI(const std::string cname) {
 	return pUI;
 }
 
+void SGameScene::removeGameUI(const std::string cname) {
+	((SUIGameObject *)this->find(cname))->onRemove();
+	this->removeObject(cname);
+}
+
 void SGameScene::run() {
 	_pScene = Scene::create();
+	_pScene->addChild(this);
 	this->createRoot();
 	Director::getInstance()->runWithScene(_pScene);
 	this->onStart();

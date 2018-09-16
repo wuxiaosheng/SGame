@@ -11,5 +11,5 @@ void GSStart::onRegisterUIList() {
 }
 
 void GSStart::onStart() {
-	((UICommonDialog *)this->createGameUI("UICommonDialog"))->setContent("²âÊÔÊä³ö");
+	((UICommonDialog *)this->createGameUI("UICommonDialog"))->setContent("test output:");
 }

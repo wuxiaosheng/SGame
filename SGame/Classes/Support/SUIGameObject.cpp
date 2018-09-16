@@ -11,6 +11,13 @@ bool SUIGameObject::init() {
 	return bRet;
 }
 
+void SUIGameObject::onRemove() {
+	_pScene = nullptr;
+	this->removeChild(_pRoot);
+	_pRoot = nullptr;
+	this->removeFromParentAndCleanup(true);
+}
+
 void SUIGameObject::loadFile(const std::string name) {
 	Node *pNode = CSLoader::createNode(name);
 	this->pushNodeToMap(pNode);
