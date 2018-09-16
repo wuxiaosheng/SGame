@@ -1,0 +1,11 @@
+SGame/proj.win8.1-universal/
+*.tlog
+*.obj
+*.sdf
+SGame/proj.win10/
+SGame/proj.android-studio/
+SGame/proj.android/
+*.pdb
+*.cache
+*.log
+*.idb

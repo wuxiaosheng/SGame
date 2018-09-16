@@ -1,0 +1,21 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="common" Type="Plist" ID="115e67ba-786f-42a2-81e7-a05ae7375c2a" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="images/common/layerbg/com_layerbg_dblue.png" />
+      <FilePathData Path="images/common/layerbg/com_layerbg_white.png" />
+      <FilePathData Path="images/common/btn/com_btn_ash.png" />
+      <FilePathData Path="images/common/btn/com_btn_blue_0.png" />
+      <FilePathData Path="images/common/btn/com_btn_blue_1.png" />
+      <FilePathData Path="images/common/btn/com_btn_close_0.png" />
+      <FilePathData Path="images/common/btn/com_btn_close_1.png" />
+      <FilePathData Path="images/common/btn/com_btn_green_0.png" />
+      <FilePathData Path="images/common/btn/com_btn_green_1.png" />
+      <FilePathData Path="images/common/btn/com_btn_yellow_0.png" />
+      <FilePathData Path="images/common/btn/com_btn_yellow_1.png" />
+      <FilePathData Path="images/common/btn/com_pic_qd2.png" />
+      <FilePathData Path="images/common/btn/com_pic_qx.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

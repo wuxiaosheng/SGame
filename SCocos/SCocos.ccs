@@ -1,0 +1,36 @@
+<Solution>
+  <PropertyGroup Name="SCocos" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="images">
+          <Folder Name="common">
+            <Folder Name="btn">
+              <Image Name="com_btn_ash.png" />
+              <Image Name="com_btn_blue_0.png" />
+              <Image Name="com_btn_blue_1.png" />
+              <Image Name="com_btn_close_0.png" />
+              <Image Name="com_btn_close_1.png" />
+              <Image Name="com_btn_green_0.png" />
+              <Image Name="com_btn_green_1.png" />
+              <Image Name="com_btn_yellow_0.png" />
+              <Image Name="com_btn_yellow_1.png" />
+              <Image Name="com_pic_qd2.png" />
+              <Image Name="com_pic_qx.png" />
+            </Folder>
+            <Folder Name="layerbg">
+              <Image Name="com_layerbg_dblue.png" />
+              <Image Name="com_layerbg_white.png" />
+            </Folder>
+            <PlistInfo Name="common.csi" Type="Plist" />
+          </Folder>
+        </Folder>
+        <Folder Name="ui">
+          <Folder Name="common">
+            <Project Name="uiCommonDialog.csd" Type="Node" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
